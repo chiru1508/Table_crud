@@ -1,0 +1,59 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Brand new",
+      "price": 100,
+      "comment": "Fresh",
+      "date": "2022-04-02T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 120,
+      "comment": "gfds",
+      "date": "2022-04-02T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Appl",
+      "category": "Fruits",
+      "freshness": "Brand new",
+      "price": 100,
+      "comment": "Fresh",
+      "date": "2022-04-02T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "A",
+      "category": "Fruits",
+      "freshness": "Brand new",
+      "price": 100,
+      "comment": "Fresh",
+      "date": "2022-04-02T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Beans",
+      "category": "Vegitables",
+      "freshness": "Brand new",
+      "price": 70,
+      "comment": "qwert",
+      "date": "2022-04-01T18:30:00.000Z",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

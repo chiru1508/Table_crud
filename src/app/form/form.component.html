@@ -1,0 +1,112 @@
+<div class="container">
+
+    <button style="margin: 20px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="add" >Add Form</button>
+
+<!-- ------------------------------------------------------------------------------------ -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+          <form [formGroup]="addForm">
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">First Name:</label>
+              <input type="text" class="form-control" formControlName="fname" name="fname" id="recipient-name">
+              <!-- <span *ngIf="fname.invalid && fname.touched">invaild first name</span> -->
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Last Name:</label>
+              <input type="text" class="form-control" formControlName="lname" name="lname" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Email Id:</label>
+              <input type="text" class="form-control" formControlName="email" name="email" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Phone Number:</label>
+              <input type="text" class="form-control" formControlName="pnum" name="pnum" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Location:</label>
+              <input type="text" class="form-control" formControlName="loc" name="loc" id="recipient-name">
+            </div>
+          </form>
+        </div>
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- ------------------------------------------------------------------------------------ -->
+  
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Edit Form</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+    
+          <div class="modal-body">
+            <form [formGroup]="addForm">
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">First Name:</label>
+                <input type="text" class="form-control" formControlName="fname" name="fname" id="recipient-name">
+                <!-- <span *ngIf="fname.invalid && fname.touched">invaild first name</span> -->
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" formControlName="lname" name="lname" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Email Id:</label>
+                <input type="text" class="form-control" formControlName="email" name="email" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Phone Number:</label>
+                <input type="text" class="form-control" formControlName="pnum" name="pnum" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Location:</label>
+                <input type="text" class="form-control" formControlName="loc" name="loc" id="recipient-name">
+              </div>
+            </form>
+          </div>
+    
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  
+  <!-- ------------------------------------------------------------------------------------ -->
+  
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Form Deleted</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+</div>
